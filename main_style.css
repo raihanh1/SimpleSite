@@ -1,0 +1,219 @@
+body {
+  font-family: "Roberto", sans-serif;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("vincentiu-solomon-ln5drpv_ImI-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.topnav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.topnav a,
+.topnavMobile a {
+  text-decoration: none;
+  align-items: flex-start;
+  font-family: "Roboto";
+  font-size: 20px;
+  color: #ffffff;
+  margin: 3px 15px;
+  padding-top: 10px;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+
+.logo {
+  margin: 20px;
+  margin-top: 24px;
+  height: 45px;
+  width: 158px;
+  background: url(https://www.simplesite.com/images/frontPage/logo/US_Logo_300x40.png)
+    no-repeat scroll 0 0 transparent;
+}
+
+.login {
+  height: 40px;
+  line-height: 40px;
+  border-radius: 100px;
+  border: solid 1px #ffffff;
+  background: transparent;
+  margin: 0px 10px 0 20px;
+  padding: 0 20px;
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 1.3px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+#createWeb {
+  font-family: Roboto;
+  font-size: 55px;
+  font-weight: 100;
+  letter-spacing: 1.7px;
+  text-align: center;
+}
+
+.globe {
+  min-width: 0;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  z-index: 5;
+}
+
+#english {
+  color: #ffffff;
+  margin-top: 10px;
+  font-family: "Roboto";
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.header {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 17%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#steps {
+  font-family: "Roboto";
+  letter-spacing: 1.7px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.free {
+  font-family: "Roboto";
+  font-size: 28px;
+  font-style: italic;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.topnavMobile {
+  display: none;
+}
+
+.start {
+  width: 200px;
+  border-radius: 100px;
+  background-image: linear-gradient(to right, #a51300, #bb1600);
+  box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.29);
+  border: solid 1px #ffffff;
+  font-family: "Roboto";
+  font-size: 14px;
+  letter-spacing: 1.3px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 14px;
+  align-self: center;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .topnav {
+    display: none;
+  }
+
+  .topnavMobile {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+
+  .globe {
+    margin-bottom: 20px;
+  }
+
+  /* Style the navigation menu */
+  .topnavHamburger {
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnavHamburger #myLinks {
+    display: none;
+    background-color: #ffffff;
+    color: black;
+    position: fixed;
+    right: 0px;
+    top: 65px;
+    width: 275px;
+    padding-top: 10px;
+    height: 100%;
+  }
+
+  /* Style navigation menu links */
+  .topnavHamburger a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .topnavHamburger a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+  }
+
+  hr {
+    border: none;
+    height: 0.1px;
+    color: #f2f2f2;
+    background-color: lightgray;
+  }
+
+  .login {
+    height: 40px;
+    line-height: 40px;
+    border-radius: 100px;
+    border: solid 1px red;
+    background: transparent;
+    margin: 0px 10px 0 20px;
+    padding: 0 20px;
+    font-family: Roboto;
+    font-size: 14px;
+    letter-spacing: 1.3px;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    justify-content: flex-end;
+    margin-right: 30px;
+    width: 90%;
+    margin: 10px 15px;
+  }
+}

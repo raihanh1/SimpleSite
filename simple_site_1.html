@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main_style.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Simple Title</title>
+  </head>
+  <body>
+    <div class="bg">
+      <div class="topnav">
+        <a class="logo" href="///wwww.simplesite.com/"></a>
+        <a href="https://www.simplesite.com/pages/startwizard.aspx"
+          >Make a free website or blog</a
+        >
+        <a href="https://www.simplesite.com/pages/customer-service.aspx"
+          >Customer Service</a
+        >
+        <a href="https://www.simplesite.com/go/cms/features/features"
+          >Features</a
+        >
+        <a href="https://www.simplesite.com/go/cms/features/examples">Themes</a>
+        <a href="https://blog.simplesite.com/">Our Blog</a>
+        <a href="http://career.simplesite.com/">Careers</a>
+        <div class="right">
+          <button class="login">LOG IN</button>
+          <img
+            class="globe"
+            src="https://www.simplesite.com/Images/FrontPage2017/Icons/globe.png"
+            alt="globe"
+          />
+          <span id="english">English</span>
+        </div>
+      </div>
+      <div class="topnavMobile">
+        <a class="logo" href="///wwww.simplesite.com/"></a>
+        <div class="right">
+          <!-- Top Navigation Menu -->
+          <div class="topnavHamburger">
+            <a href="#home" class="active"></a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+              <a href="https://www.simplesite.com/pages/startwizard.aspx"
+                >Make a free website or blog</a
+              >
+              <hr />
+              <a href="https://www.simplesite.com/pages/customer-service.aspx"
+                >Customer Service</a
+              >
+              <hr />
+              <a href="https://www.simplesite.com/go/cms/features/features"
+                >Features</a
+              >
+              <hr />
+              <a href="https://www.simplesite.com/go/cms/features/examples"
+                >Themes</a
+              >
+              <hr />
+              <a href="https://blog.simplesite.com/">Our Blog</a>
+              <hr />
+              <a href="http://career.simplesite.com/">Careers</a>
+              <hr />
+              <button class="login">LOG IN</button>
+              <hr />
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <img
+            class="globe"
+            src="https://www.simplesite.com/Images/FrontPage2017/Icons/globe.png"
+            alt="globe"
+          />
+        </div>
+      </div>
+
+      <div class="header">
+        <div id="createWeb">
+          Create your website in <span id="steps">three simple steps</span>
+        </div>
+        <h2 class="free">- It's free! -</h2>
+        <button class="start">START HERE</button>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
